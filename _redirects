@@ -1,1 +1,6 @@
-/test www.google.com
+[[redirects]]
+  from = "/test"
+  to = "https://www.google.com"
+  status = 301
+  force = false
+  query = {path = ":path"}
